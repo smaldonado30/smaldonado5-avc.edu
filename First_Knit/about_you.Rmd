@@ -1,0 +1,99 @@
+---
+title: "First Knit"
+author:
+date: "Date, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+###my answer
+Im sitting in the second row.It usally depends on where there is open seating and in todays case, this was the row with a working computer. My computer has the number 12 on it. I feel okay with the idea of periodic seat re-assignment so I would give it an 8.Yes I have worked in a few teams or groups in a class setting.
+  
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer
+I like to be called Servio, or some of my co-workers call me Serv,so either one is good.
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+I want to be succesfull in whatever I do. I think any science subjects would have my greatest intrest.I would like to get my Bachelors degree in Nursing.  
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+Yes I have travelled to Ecuador twice in my life.I would like to Travel to Europe and visit Italy.I have not been in the military but if I had to choose a branch to join I would join the air Force because I would love to be a piot if I had the chance.
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  I would need to attain an A in this Stats class. My plan is to work hard and learn as much as I can.
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  I rate my self a 5 when it comes to being tech savy.I do own a laptop at home.It is a windows pc.I do have access to the internet.There are no issues that limit my collage attendence. I went to Lancaster High School and graduated class of 07. I currently work at Olive View Hospital as a pharmacy technician.
+  
+   
+  
+
+
+
+
